@@ -1,0 +1,13 @@
+---
+model_names:
+  mixtral8x7binstruct: 8f4118ba-60a8-4e6b-8574-e38a4067a4a3
+  mistral7binstruct: 35ec3354-2681-4d0e-a8dd-80325dcf7c63
+  nv-llama2-70b-rlhf: 7b3e3361-4266-41c8-b312-f5e33c81fc92
+  nv-llama2-70b-steerlm: d6fe6881-973a-4279-a0f8-e1d486c9618d
+  codellama13b: f6a96af4-8bf9-4294-96d6-d71aa787612e
+  codellama70b: 2ae529dc-f728-4a46-9b8d-2697213666d8
+  codellama34b: df2bee43-fb69-42b9-9ee5-f4eabbeaf3a8
+  llama213b: e0bb7fb9-5333-4a27-8534-c6288f921d3f
+  llama270b: 0e349b44-440a-44e1-93e9-abe8dcb27158
+  yi-34b: 347fa3f3-d675-432c-b844-669ef8ee53df
+  nemotron-3-8b-chat-steerlm: 1423ff2f-d1c7-4061-82a7-9e8c67afd43a
