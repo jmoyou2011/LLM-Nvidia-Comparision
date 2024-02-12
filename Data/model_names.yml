@@ -11,3 +11,6 @@ model_names:
   llama270b: 0e349b44-440a-44e1-93e9-abe8dcb27158
   yi-34b: 347fa3f3-d675-432c-b844-669ef8ee53df
   nemotron-3-8b-chat-steerlm: 1423ff2f-d1c7-4061-82a7-9e8c67afd43a
+# Add your Nvidia Key from the Nvidia Foundational AI Models catalog page:
+# KEY:
+#   your-api-key
