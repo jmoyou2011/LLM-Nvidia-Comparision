@@ -15,6 +15,20 @@ model would suit their use cases. In addition, it features gradio interface in w
 the user input prompt to view the model response.
 
 ### Screenshots
-Below is a image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.
+Below is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.
 ![Image of choice of LLM](Data/Single-Model-Call.png)
 
+
+Here is another image that shows how the benchmark interface for a singular prompt works when one prompt is run against multiple LLMs.
+![Image of metrics from LLMS](Data/Nvidia-MultiModel-LLM.png)
+
+
+
+### Additional Work
+
+1. Extend this work performance to other types of models on the Nvidia Catalog. This was a strict text-to-text model where the model
+   payloads were of the same structure.
+
+2. Rework the async aiohttp notebook to solve for errors in calling the API in an asynchronous fashion i.e. solving for null content when the status_code is 202.
+
+3. Extend the functionality to evaluate the metrics of each LLM under Information Retrieval metrics such as MMR, BLEU Score, ROUGE and, others.  
