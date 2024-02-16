@@ -6,7 +6,7 @@ https://catalog.ngc.nvidia.com/ai-foundation-models
 To extract through the CURL request, click on one of the model learn more sections and then click on the API section.
 Then click on the generate API key and copy that key to either a .yaml or .env file that holds value.
 
-Two notebooks demonstrate the use of these APIs through the standard request module and the other with aiohttp module.
+Two notebooks demonstrate the use of these APIs through the standard request module and the other with the aiohttp module.
 The notebook that features the aiohttp contains errors due to some models returning null values despite 202 status code and
 because of that, it is not fully reliable.
 
