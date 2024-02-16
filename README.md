@@ -1,18 +1,32 @@
-# LLM-Nvidia-Comparision
-This is a demonstration of testing different LLM models on the Nvidia Foundational AI model catalog.
+# Overview
+This repo allows you to query multiple NVIDIA AI Foundation LLM models at the same (for FREE 😀) using a single interface. 
 
 https://catalog.ngc.nvidia.com/ai-foundation-models
 
-To extract through the CURL request, click on one of the model learn more sections and then click on the API section.
-Then click on the generate API key and copy that key to either a .yaml or .env file that holds value.
+The goal of the project is to show how you can leverage the AI Foundation Model Endpoints to query many different language models conveniently by sending a single query request to get back the latencies and responses of each of the models of interest
 
-Two notebooks demonstrate the use of these APIs through the standard request module and the other with the aiohttp module.
-The notebook that features the aiohttp contains errors due to some models returning null values despite 202 status code and
-because of that, it is not fully reliable.
+This is most useful and convenient for data scientists and deployment teams who are trying to select the best LLM for their use case based on latency and accuracy. 
 
-The request notebook features the ability to benchmark multiple models over a list of prompts so that viewers can inspect which
-model would suit their use cases. In addition, it features gradio interface in which the user can select which model to use with
-the user input prompt to view the model response.
+The demo is built with Gradio, it shows all the available LLM models (as of 02-16-24) that have the same curl interface. 
+
+### Models
+Here is the list of models that were used for this experiment:
+   - Mixtral 8x7B Instruct
+   - Mistral 7B Instruct
+   - NV-Llama2-70B-RLHF
+   - NV-Llama2-70B-SteerLM-Chat
+   - Code Llama 13B
+   - Code Llamm 34B
+   - Code Llama 70B
+   - Llama 2 13B
+   - Llama 2 70B
+   - Yi-34B
+   - Nemotron-3-8B-QA
+
+### Getting Started
+
+
+
 
 ### Screenshots
 Below is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.
