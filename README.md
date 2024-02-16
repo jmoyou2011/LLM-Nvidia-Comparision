@@ -16,11 +16,11 @@ the user input prompt to view the model response.
 
 ### Screenshots
 Below is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.
-![Image of choice of LLM](Data/Single-Model-Call.png)
+![Image of choice of LLM](screenshots/single-model-call.png)
 
 
 Here is another image that shows how the benchmark interface for a singular prompt works when one prompt is run against multiple LLMs.
-![Image of metrics from LLMS](Data/Nvidia-MultiModel-LLM.png)
+![Image of metrics from LLMS](screenshots/nvidia-multi-model-llm.png)
 
 
 
