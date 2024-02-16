@@ -15,4 +15,6 @@ model would suit their use cases. In addition, it features gradio interface in w
 the user input prompt to view the model response.
 
 ### Screenshots
+Below is a image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.
+![Image of choice of LLM](Data/Single-Model-Call.png)
 
