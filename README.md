@@ -33,7 +33,7 @@ The repo contains two notebooks
                                is incomplete due to errors list the section "Additional Work".
 
 ### Screenshots of Outputs
-<p style="text-align: center;">Expected structure of the outputs when the benchmark process is completed</p>
+<p align="center">Expected structure of the outputs when the benchmark process is completed</p>
 <p align="center" width="100%">
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/llm-results.png">
 </p>
@@ -42,12 +42,12 @@ The repo contains two notebooks
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/benchmark-llms.png">
 </p>
 
-<p stlye="text-align: center;">Gradio Interface where a user can select a model and enter a prompt to return a generated message.</p>
+<p align="center">Gradio Interface where a user can select a model and enter a prompt to return a generated message.</p>
 <p align="center" width="100%">
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/single-model-call.png">
 </p>
 
-<p style="text-align: center;">Gradio Interface where a user can enter a prompt to return the models' response time in ascending order.</p>
+<p align="center">Gradio Interface where a user can enter a prompt to return the models' response time in ascending order.</p>
 <p align="center" width="100%">
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/nvidia-multi-model-llm.png">
 </p>
