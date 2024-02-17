@@ -33,11 +33,15 @@ The repo contains two notebooks
                            is incomplete due to errors list the section "Additional Work".
 
 ### Screenshots of Outputs
+**Expected structure of the outputs when the benchmark process is completed**
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/llm-results.png">
+</p>
 
-![LLM Results](screenshots/llm-results.png)
-![LLM Benchmark Results](screenshots/benchmark-llms.png)
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/benchmark-llms.png">
+</p>
 
-*Expected structure of the outputs when the benchmark process is completed*
 
 ![Image of choice of LLM](screenshots/single-model-call.png)
 * Above is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.*
