@@ -36,6 +36,7 @@ The repo contains two notebooks
 
 ![LLM Results](screenshots/llm-results.png)
 ![LLM Benchmark Results](screenshots/benchmark-llms.png)
+
 *Expected structure of the outputs when the benchmark process is completed*
 
 ![Image of choice of LLM](screenshots/single-model-call.png)
