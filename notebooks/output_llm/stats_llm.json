@@ -1,0 +1,101 @@
+[
+    {
+        "model_name": "codellama13b",
+        "resp_time_min": 0.433,
+        "resp_time_max": 4.704,
+        "resp_time_mean": 1.4712,
+        "out_tkn_min": 151,
+        "out_tkn_max": 1023,
+        "out_tkn_mean": 855
+    },
+    {
+        "model_name": "nv-llama2-70b-rlhf",
+        "resp_time_min": 0.143,
+        "resp_time_max": 4.709,
+        "resp_time_mean": 2.0137,
+        "out_tkn_min": 257,
+        "out_tkn_max": 355,
+        "out_tkn_mean": 319.3
+    },
+    {
+        "model_name": "codellama70b",
+        "resp_time_min": 0.288,
+        "resp_time_max": 4.702,
+        "resp_time_mean": 2.231,
+        "out_tkn_min": 569,
+        "out_tkn_max": 1024,
+        "out_tkn_mean": 775.5
+    },
+    {
+        "model_name": "mistral7binstruct",
+        "resp_time_min": 0.107,
+        "resp_time_max": 5.123,
+        "resp_time_mean": 2.4344,
+        "out_tkn_min": 136,
+        "out_tkn_max": 599,
+        "out_tkn_mean": 369.2
+    },
+    {
+        "model_name": "nemotron-3-8b-chat-steerlm",
+        "resp_time_min": 0.862,
+        "resp_time_max": 4.301,
+        "resp_time_mean": 2.4845,
+        "out_tkn_min": 279,
+        "out_tkn_max": 608,
+        "out_tkn_mean": 414.4
+    },
+    {
+        "model_name": "nv-llama2-70b-steerlm",
+        "resp_time_min": 0.116,
+        "resp_time_max": 4.395,
+        "resp_time_mean": 2.5416,
+        "out_tkn_min": 166,
+        "out_tkn_max": 584,
+        "out_tkn_mean": 437.6
+    },
+    {
+        "model_name": "codellama34b",
+        "resp_time_min": 0.296,
+        "resp_time_max": 4.818,
+        "resp_time_mean": 2.6437,
+        "out_tkn_min": 407,
+        "out_tkn_max": 769,
+        "out_tkn_mean": 522.8
+    },
+    {
+        "model_name": "llama213b",
+        "resp_time_min": 0.199,
+        "resp_time_max": 4.971,
+        "resp_time_mean": 2.7156,
+        "out_tkn_min": 159,
+        "out_tkn_max": 541,
+        "out_tkn_mean": 382.8
+    },
+    {
+        "model_name": "yi-34b",
+        "resp_time_min": 0.214,
+        "resp_time_max": 4.864,
+        "resp_time_mean": 2.7735,
+        "out_tkn_min": 293,
+        "out_tkn_max": 627,
+        "out_tkn_mean": 483.8
+    },
+    {
+        "model_name": "llama270b",
+        "resp_time_min": 0.307,
+        "resp_time_max": 5.119,
+        "resp_time_mean": 2.9019,
+        "out_tkn_min": 456,
+        "out_tkn_max": 822,
+        "out_tkn_mean": 673.7
+    },
+    {
+        "model_name": "mixtral8x7binstruct",
+        "resp_time_min": 1.53,
+        "resp_time_max": 5.13,
+        "resp_time_mean": 3.7605,
+        "out_tkn_min": 135,
+        "out_tkn_max": 751,
+        "out_tkn_mean": 438.9
+    }
+]
