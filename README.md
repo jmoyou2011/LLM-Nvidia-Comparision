@@ -1,13 +1,11 @@
 # Overview
 This repo allows you to query multiple NVIDIA AI Foundation LLM models at the same (for FREE 😀) using a single interface. 
 
-https://catalog.ngc.nvidia.com/ai-foundation-models
-
 The goal of the project is to show how you can leverage the AI Foundation Model Endpoints to query many different language models conveniently by sending a single query request to get back the latencies and responses of each of the models of interest
 
-This is most useful and convenient for data scientists and deployment teams who are trying to select the best LLM for their use case based on latency and accuracy. 
+This is most useful and convenient for data scientists and deployment teams trying to select the best LLM for their use case based on latency and accuracy. 
 
-The demo is built with Gradio, it shows all the available LLM models (as of 02-16-24) that have the same curl interface. 
+The demo is built with Gradio, it shows all the available LLM models (as of 02-16-24) with the same curl interface. 
 
 ### Models
 Here is the list of models that were used for this experiment:
@@ -25,17 +23,26 @@ Here is the list of models that were used for this experiment:
 
 ### Getting Started
 
+One must sign up for NGC (https://catalog.ngc.nvidia.com/ai-foundation-models), log in, and head to AI foundational models.
+For more information, refer to the "ngc-readme.md" in the file list.
 
+The repo contains two notebooks
+   - nvidia_llm_requests - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
+                           and which performs the benchmarking and illustration through gradio.
+   - nvidia_llm_asyncio -  This notebook interfaces with the Nvidia APIs through aiohttp with async. As of 02-17-2024, this notebook
+                           is incomplete due to errors list the section "Additional Work".
 
+### Screenshots of Outputs
 
-### Screenshots
-Below is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.
+![LLM Results](screenshots/llm-results.png)
+![LLM Benchmark Results](screenshots/benchmark-llms.png)
+*Expected structure of the outputs when the benchmark process is completed*
+
 ![Image of choice of LLM](screenshots/single-model-call.png)
+* Above is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.*
 
-
-Here is another image that shows how the benchmark interface for a singular prompt works when one prompt is run against multiple LLMs.
 ![Image of metrics from LLMS](screenshots/nvidia-multi-model-llm.png)
-
+*Here is another image that shows how the benchmark interface for a singular prompt works when one prompt is run against multiple LLMs.*
 
 
 ### Additional Work
