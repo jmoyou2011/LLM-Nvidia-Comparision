@@ -27,13 +27,13 @@ One must sign up for NGC (https://catalog.ngc.nvidia.com/ai-foundation-models), 
 For more information, refer to the "ngc-readme.md" in the file list.
 
 The repo contains two notebooks
-   - nvidia_llm_requests - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
-                           and which performs the benchmarking and illustration through gradio.
-   - nvidia_llm_asyncio -  This notebook interfaces with the Nvidia APIs through aiohttp with async. As of 02-17-2024, this notebook
-                           is incomplete due to errors list the section "Additional Work".
+   - **nvidia_llm_requests** - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
+                               and which performs the benchmarking and illustration through gradio.
+   - **nvidia_llm_asyncio** -  This notebook interfaces with the Nvidia APIs through aiohttp with async. As of 02-17-2024, this notebook
+                               is incomplete due to errors list the section "Additional Work".
 
 ### Screenshots of Outputs
-**Expected structure of the outputs when the benchmark process is completed**
+<p style="text-align: center;">Expected structure of the outputs when the benchmark process is completed</p>
 <p align="center" width="100%">
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/llm-results.png">
 </p>
@@ -42,13 +42,15 @@ The repo contains two notebooks
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/benchmark-llms.png">
 </p>
 
+<p stlye="text-align: center;">Gradio Interface where a user can select a model and enter a prompt to return a generated message.</p>
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/single-model-call.png">
+</p>
 
-![Image of choice of LLM](screenshots/single-model-call.png)
-* Above is an image of the gradio interface in which you can select which LLM model and input your prompt to generate text from the LLM.*
-
-![Image of metrics from LLMS](screenshots/nvidia-multi-model-llm.png)
-*Here is another image that shows how the benchmark interface for a singular prompt works when one prompt is run against multiple LLMs.*
-
+<p style="text-align: center;">Gradio Interface where a user can enter a prompt to return the models' response time in ascending order.</p>
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/nvidia-multi-model-llm.png">
+</p>
 
 ### Additional Work
 
