@@ -28,9 +28,7 @@ For more information, refer to the "ngc-readme.md" in the file list.
 
 The repo contains two notebooks
    - **nvidia_llm_requests** - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
-                               and which performs the benchmarking and illustration through gradio.
-   - **nvidia_llm_asyncio** -  This notebook interfaces with the Nvidia APIs through aiohttp with async. As of 02-17-2024, this notebook
-                               is incomplete due to errors list the section "Additional Work".
+                               and which performs the benchmarking and illustration through Gradio.
 
 ### Screenshots of Outputs
 <p align="center">Expected structure of the outputs when the benchmark process is completed</p>
