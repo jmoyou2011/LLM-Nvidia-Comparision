@@ -25,14 +25,13 @@ For more information, refer to the "ngc-readme.md" in the file list.
 
 The repo contains one notebook named **nvidia_llm_requests.ipynb**. This notebook uses the requests module to interact with the Nvidia APIs. The notebook has three sections listed below:
 
-     1.)  Benchmarking against multiple prompts (Five in the test case)
+   * Benchmarking against multiple prompts (five in the test case)
 
-     2.)  Benchmarking against multiple scenarios (short prompt -> short output, short prompt -> long output, long prompt -> short output and, long prompt -> long output.)
+   * Benchmarking against multiple scenarios (short prompt -> short output, short prompt -> long output, long prompt -> short output and, long prompt -> long output.)
 
-     3.)  Interactive Gradio interfaces that allow you to interact with a selected model and user input prompt as well as user input prompt against multiple models. Each interface allows the user to save the response.    
+   * Interactive Gradio interfaces that allow you to interact with a selected model and user input prompt as well as user input prompt against multiple models. Each interface allows the user to save the response. 
 
-
-### Screenshots of Outputs
+## Screenshots of Outputs
 <p align="center">Expected structure of the outputs when the benchmark process is completed</p>
 <p align="center" width="100%">
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/llm-results.png">
