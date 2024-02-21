@@ -23,9 +23,12 @@ Here is the list of models that were used for this experiment:
 One must sign up for NGC (https://catalog.ngc.nvidia.com/ai-foundation-models), log in, and head to AI foundational models.
 For more information, refer to the "ngc-readme.md" in the file list.
 
-The repo contains two notebooks
-   - **nvidia_llm_requests** - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
-                               and which performs the benchmarking, and illustration through scatter plots and, an interactive Gradio interface.
+The repo contains one notebook:
+   - **nvidia_llm_requests.ipynb** - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is separated into three sections:
+     1.) Benchmarking against multiple prompts (Five in the test case)
+     2.) Benchmarking against multiple scenarios (short prompt -> short output, short prompt -> long output, long prompt -> short output and, long prompt -> long output.)
+     3.) Interactive Gradio interfaces that allow you to interact with a selected model and user input prompt as well as user input prompt against multiple models. Each interface allows the user to save the response.    
+
 
 ### Screenshots of Outputs
 <p align="center">Expected structure of the outputs when the benchmark process is completed</p>
