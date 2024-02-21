@@ -25,7 +25,7 @@ For more information, refer to the "ngc-readme.md" in the file list.
 
 The repo contains two notebooks
    - **nvidia_llm_requests** - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
-                               and which performs the benchmarking, and illustration through scatter plots and, interactive Gradio interface.
+                               and which performs the benchmarking, and illustration through scatter plots and, an interactive Gradio interface.
 
 ### Screenshots of Outputs
 <p align="center">Expected structure of the outputs when the benchmark process is completed</p>
@@ -45,6 +45,16 @@ The repo contains two notebooks
 <p align="center">Gradio Interface where a user can enter a prompt to return the models' response time in ascending order.</p>
 <p align="center" width="100%">
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/nvidia-multi-model-llm.png">
+</p>
+
+<p align="center">Scatter plot showing response time in seconds vs number of input tokens across all the models tested.</p>
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/response_time-vs-in_tokens-all.png">
+</p>
+
+<p align="center">Scatter plot showing response time in seconds vs number of output tokens across all the models tested.</p>
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/response_time-vs-out_tokens-all.png">
 </p>
 
 ### Additional Work
