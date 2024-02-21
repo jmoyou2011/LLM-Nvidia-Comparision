@@ -13,9 +13,6 @@ Here is the list of models that were used for this experiment:
    - Mistral 7B Instruct
    - NV-Llama2-70B-RLHF
    - NV-Llama2-70B-SteerLM-Chat
-   - Code Llama 13B
-   - Code Llamm 34B
-   - Code Llama 70B
    - Llama 2 13B
    - Llama 2 70B
    - Yi-34B
@@ -28,7 +25,7 @@ For more information, refer to the "ngc-readme.md" in the file list.
 
 The repo contains two notebooks
    - **nvidia_llm_requests** - This notebook uses the requests module to interact with the Nvidia APIs. This notebook is the completed one 
-                               and which performs the benchmarking and illustration through Gradio.
+                               and which performs the benchmarking, and illustration through scatter plots and, interactive Gradio interface.
 
 ### Screenshots of Outputs
 <p align="center">Expected structure of the outputs when the benchmark process is completed</p>
@@ -52,9 +49,10 @@ The repo contains two notebooks
 
 ### Additional Work
 
-1. Extend this work performance to other types of models on the Nvidia Catalog. This was a strict text-to-text model where the model
-   payloads were of the same structure.
+1. Extend this work performance to other types of models on the Nvidia AI foundational models catalog. This was a strict text-to-text model comparison where the model payloads were of the same structure.
 
 2. Rework the async aiohttp notebook to solve for errors in calling the API in an asynchronous fashion i.e. solving for null content when the status_code is 202.
 
-3. Extend the functionality to evaluate the metrics of each LLM under Information Retrieval metrics such as MMR, BLEU Score, ROUGE and, others.  
+3. Extend the functionality to evaluate the metrics of each LLM under Information Retrieval metrics such as MMR, BLEU Score, ROUGE and, others.
+
+4. Extend the functionality to evaluate metrics by certain LLM packages such as [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)
