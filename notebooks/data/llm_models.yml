@@ -1,0 +1,22 @@
+---
+model_urls:
+  mixtral8x7binstruct: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/8f4118ba-60a8-4e6b-8574-e38a4067a4a3
+  mistral7binstruct: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/35ec3354-2681-4d0e-a8dd-80325dcf7c63
+  nv-llama2-70b-rlhf: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/7b3e3361-4266-41c8-b312-f5e33c81fc92
+  nv-llama2-70b-steerlm: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/d6fe6881-973a-4279-a0f8-e1d486c9618d
+  llama213b: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/e0bb7fb9-5333-4a27-8534-c6288f921d3f
+  llama270b: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/0e349b44-440a-44e1-93e9-abe8dcb27158
+  yi-34b: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/347fa3f3-d675-432c-b844-669ef8ee53df
+  nemotron-3-8b-QA: https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/1423ff2f-d1c7-4061-82a7-9e8c67afd43a
+model_full_names:
+  mixtral8x7binstruct: Mixtral 8x7B Instruct
+  mistral7binstruct: Mistral 7B Instruct
+  nv-llama2-70b-rlhf: NV-Llama2-70B-RLHF
+  nv-llama2-70b-steerlm: NV-Llama2-70B-SteerLM-Chat
+  llama213b: Llama 2 13B
+  llama270b: Llama 2 70B
+  yi-34b: Yi-34B
+  nemotron-3-8b-QA: Nemotron-3-8B-QA
+invoke-urls:
+  - https://api.nvcf.nvidia.com/v2/nvcf/pexec/functions/
+  - https://api.nvcf.nvidia.com/v2/nvcf/pexec/status/
