@@ -79,3 +79,8 @@ The repo contains one notebook named **nvidia_llm_requests.ipynb**. This noteboo
 2. Leverage libraries such as async to send off requests simultaneously. Not sure if multiple concurrent requests from the same key will be denied. TBD.
 
 3. Extend the functionality to evaluate the metrics of each LLM for accuracy to different topics. Each request gives back a text response. Evaluating the speed of an LLM is easy, but accuracy is not and it is very dependent on the use case. Possibly leverage [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)
+
+
+### Data Modification
+
+If a user wants to modify the datasets used in the notebook, refer to [schema guide](https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/data-file.md) for more information on the structure of the datasets used. 
