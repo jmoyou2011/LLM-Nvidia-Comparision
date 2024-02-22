@@ -1,11 +1,11 @@
 # Overview
-This repo allows you to query multiple NVIDIA AI Foundation LLM models at the same (for FREE 😀) using a single interface. You can leverage this project to see the performance of multiple models across different query types to understand what your production deployment may look like. Keep in mind that the models on the NVIDIA AI Foundation model endpoints are highly optimized and in some cases run across multiple GPUs (using Tensor Parallelism with [TRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) and [NVIDIA Triton](https://github.com/triton-inference-server/server)  
+This repo allows you to query multiple NVIDIA AI Foundation LLM models at the same (for FREE 😀) using a single interface. You can leverage this project to see the performance of multiple models across different query types to understand what your production deployment may look like. Keep in mind that the models on the NVIDIA AI Foundation model endpoints are highly optimized and in some cases run across multiple GPUs (using Tensor Parallelism with [TRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) and [NVIDIA Triton](https://github.com/triton-inference-server/server)) 
 
 The goal of the project is to show how you can leverage the AI Foundation Model Endpoints to query many different language models conveniently by sending a single query request to get back the latencies and responses of each of the models of interest
 
 This is most useful and convenient for data scientists and deployment teams trying to select the best LLM for their use case based on latency and accuracy. 
 
-There is a demo built with Gradio, it shows all the available LLM models (as of 02-16-24) with the same curl interface to query llms (not code generating ones) 
+There is a demo built with Gradio; it shows all the available LLM models (as of 02-16-24) with the same curl interface to query LLMs (not code-generating ones) 
 
 ### Models
 Here is the list of models that were used for this experiment:
