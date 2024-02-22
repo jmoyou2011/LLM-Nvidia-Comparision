@@ -61,6 +61,17 @@ The repo contains one notebook named **nvidia_llm_requests.ipynb**. This noteboo
    <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/response_time-vs-out_tokens-all.png">
 </p>
 
+<p align="center">Scatter subplot showing response time in seconds vs number of input tokens for each scenario.</p>
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/response_time-vs-in_tokens-subplots.png">
+</p>
+
+<p align="center">Scatter subplot showing response time in seconds vs number of output tokens for each scenario.</p>
+<p align="center" width="100%">
+   <img width="75%" src="https://github.com/jmoyou2011/nvidia-llm-compare/blob/main/screenshots/response_time-vs-out_tokens-subplots.png">
+</p>
+
+
 ### Additional Work
 
 1. Extend this work performance to other types of models on the NVIDIA AI Foundation Models catalog. This was a strict text-to-text model comparison where the model payloads were of the same/similar structure.
