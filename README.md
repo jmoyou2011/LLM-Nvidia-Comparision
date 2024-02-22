@@ -1,11 +1,11 @@
 # Overview
-This repo allows you to query multiple NVIDIA AI Foundation LLM models at the same (for FREE 😀) using a single interface. 
+This repo allows you to query multiple NVIDIA AI Foundation LLM models at the same (for FREE 😀) using a single interface. You can leverage this project to see the performance of multiple models across different query types to understand what your production deployment may look like. Keep in mind that the models on the NVIDIA AI Foundation model endpoints are highly optimized and in some cases run across multiple GPUs (using Tensor Parallelism with [TRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) and [NVIDIA Triton](https://github.com/triton-inference-server/server)  
 
 The goal of the project is to show how you can leverage the AI Foundation Model Endpoints to query many different language models conveniently by sending a single query request to get back the latencies and responses of each of the models of interest
 
 This is most useful and convenient for data scientists and deployment teams trying to select the best LLM for their use case based on latency and accuracy. 
 
-The demo is built with Gradio, it shows all the available LLM models (as of 02-16-24) with the same curl interface. 
+There is a demo built with Gradio, it shows all the available LLM models (as of 02-16-24) with the same curl interface to query llms (not code generating ones) 
 
 ### Models
 Here is the list of models that were used for this experiment:
@@ -23,13 +23,13 @@ Here is the list of models that were used for this experiment:
 One must sign up for NGC (https://catalog.ngc.nvidia.com/ai-foundation-models), log in, and head to AI foundational models.
 For more information, refer to the "ngc-readme.md" in the file list.
 
-The repo contains one notebook named **nvidia_llm_requests.ipynb**. This notebook uses the requests module to interact with the Nvidia APIs. The notebook has three sections listed below:
+The repo contains one notebook named **nvidia_llm_requests.ipynb**. This notebook uses the requests module to interact with the NVIDIA APIs. The notebook has three sections listed below:
 
-   * Benchmarking against multiple prompts (five in the test case)
+   * Benchmarking against multiple prompts (five in the test case).
 
-   * Benchmarking against multiple scenarios (short prompt -> short output, short prompt -> long output, long prompt -> short output and, long prompt -> long output.)
+   * Benchmarking against multiple query scenarios (short input -> short output, short input -> long output, long input -> short output and, long input -> long output).
 
-   * Interactive Gradio interfaces that allow you to interact with a selected model and user input prompt as well as user input prompt against multiple models. Each interface allows the user to save the response. 
+   * Interactive Gradio interfaces that allow you to interact with a selected model (single) and user input prompt as well as user input prompt against multiple models. Each interface allows the user to save the response. 
 
 ## Screenshots of Outputs
 <p align="center">Expected structure of the outputs when the benchmark process is completed</p>
@@ -63,10 +63,8 @@ The repo contains one notebook named **nvidia_llm_requests.ipynb**. This noteboo
 
 ### Additional Work
 
-1. Extend this work performance to other types of models on the Nvidia AI foundational models catalog. This was a strict text-to-text model comparison where the model payloads were of the same structure.
+1. Extend this work performance to other types of models on the NVIDIA AI Foundation Models catalog. This was a strict text-to-text model comparison where the model payloads were of the same/similar structure.
 
-2. Rework the async aiohttp notebook to solve for errors in calling the API in an asynchronous fashion i.e. solving for null content when the status_code is 202.
+2. Leverage libraries such as async to send off requests simultaneously. Not sure if multiple concurrent requests from the same key will be denied. TBD.
 
-3. Extend the functionality to evaluate the metrics of each LLM under Information Retrieval metrics such as MMR, BLEU Score, ROUGE and, others.
-
-4. Extend the functionality to evaluate metrics by certain LLM packages such as [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)
+3. Extend the functionality to evaluate the metrics of each LLM for accuracy to different topics. Each request gives back a text response. Evaluating the speed of an LLM is easy, but accuracy is not and it is very dependent on the use case. Possibly leverage [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)
